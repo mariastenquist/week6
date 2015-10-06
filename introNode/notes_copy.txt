@@ -1,0 +1,25 @@
+Running a script is like running a function, in that the script itself can have arguments. 
+
+access command-line arguments with process.argv
+
+argv is short for 'arguments vector'
+
+process.argv[0] is Always 'node' (or a filepath to node)
+process.argv[1] is the script that is being run currently
+process.argv[2+] the actual arguments (what you naturally think of as arguments to the script
+
+in node: there is no global space to define variables and share them. You have to explicitly share/reveal to other files to have the other file access it (and explicitly say which file it is pulling from).
+
+require: keyword in node, to grab content from other files.
+
+globally defined object in node: module. and a method .exports is called on it
+
+use 'module.exports' and 'require()' to share code between files. Whatever is exported in one file, can be required in another file.
+require returns the value of module.exports
+
+you can export many types of data, for now, strings.
+
+for a web app, will likely have a dozen different files (each file does a different job). For small exercises (in class, eg) you won't necessarily need 'require'.
+
+
+cat: a simple utility--takes chunks of text and sticks them together (goes to the command line output). 
