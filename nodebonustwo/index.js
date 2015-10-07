@@ -16,15 +16,5 @@ request('https://cdn.rawgit.com/metaraine/swatch/74580660c9229541622bbf1fd419861
 
 // var result = function(colorName){
 // 	_.pluck(result, "name")
-
-	
-// }
-
-
-// var resultTrio = function(rgbValues){
-
-// 	colors = JSON.parse('["r", "g", "b"]')
-// }
-
 	// colors.filter(function(color){
 	// 	return color.name === colorName
