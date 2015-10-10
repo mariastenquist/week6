@@ -21,7 +21,7 @@ app.use(express.static(__dirname + '/public'));
 
 // app.get('/:countryName', function(req, res){
 // 	redirect('/canaryIslands.html')
-	
+	 
 // })
 
 app.get('/', function(req, res){

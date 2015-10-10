@@ -1,0 +1,17 @@
+MVC ---Architecture Pattern
+Model - View -Controller
+
+Models		-Represent our data (in Angular: services/factories)
+Views		-What the client sees (in Angular: rendered HTML)
+Controllers	-Glue between the Models/Views (in Angular: controller functions)
+
+
+$scope: object that allows us to add properties to it {{greeting}} and use this in our html.
+
+In Angular: services and factories--represent data, hold object constructors. This represents the Model. This is where the data lives. 
+
+$http (in Angular): allows us to send/receive requests from server without refreshing the page.
+
+AJAX: asynchronous Javascript and XML. 
+
+AJAJ: asynchronous Javascript and JSON. So, basically AJAX. Less sexy. 
